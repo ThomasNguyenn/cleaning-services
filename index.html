@@ -38,8 +38,8 @@
         <ul class="nav-list">
           <li class="nav-item"><a href="index.html">Home</a></li>
           <li class="nav-item"><a href="#about-us">About Us</a></li>
-          <li class="nav-item"><a href="">Services</a></li>
-          <li class="nav-item"><a href="">Contact Us</a></li>
+          <li class="nav-item"><a href="#business_infomation">Services</a></li>
+          <li class="nav-item"><a href="#header-container">Contact Us</a></li>
         </ul>
       </div>
       <!-- Header Section with logo and navigation End-->
@@ -64,7 +64,7 @@
             <input type="email" placeholder="Your Email*" required />
             <input type="phone" placeholder="Phone Number*" required />
             <textarea placeholder="Description*" required></textarea>
-            <button type="submit" class="submit-btn">Book A Call</button>
+            <button type="submit" class="submit-btn">Book A Schedule</button>
           </form>
         </div>
       </div>
@@ -181,101 +181,138 @@
 
     <!--SERVICES SECTION BEGIN-->
     <section id="services">
-      <h3>Provide Worldwide Service For Good Customers</h3>
-      <span>Our Motto: Keep Your Home & Office Healthy And Eco Friendly</span>
-      <p>
+      <h3 class="services-heading">
+        Provide Worldwide Service For Good Customers
+      </h3>
+      <span class="services-span"
+        >Our Motto: Keep Your Home & Office Healthy And Eco Friendly</span
+      >
+      <p class="services-para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt
         obcaecati quis labore harum ratione aperiam inventore ullam odit nulla
         necessitatibus, corrupti, amet ea iusto provident? Reiciendis sequi
-        laboriosam ab.
+        laboriosam ab. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Magnam neque libero consectetur incidunt vero architecto tempora a
+        repudiandae sit, fugit, similique aperiam omnis harum iusto quidem
+        maiores dolor quia. Magnam.
       </p>
     </section>
     <!--SERVICES SECTION END-->
-    <section>
-      <div>
-        <div>
-          <h5>Why Choose Us</h5>
-          <h2>Our Expertise Makeing Your House Shine</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
-            iusto harum id illo facere? Distinctio officia corporis temporibus.
-            Corrupti ullam eius dignissimos vitae praesentium. Praesentium sed
-            earum suscipit perferendis ipsum!
-          </p>
-          <button type="button">Contact Us</button>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <span>Expert Employee</span>
-              <p>
-                We're very proud to say that our staff and technicians are
-                associated with us for a long time. All our cleaners are
-                experienced and fully trained in cleaning, health, safety,
-                securty, etc.
-              </p>
-            </li>
-            <li>
-              <span>Comfortable Price</span>
-              <p>
-                Price is what you pay. Value is what you get. We believe that
-                value is what you're looking for.
-              </p>
-            </li>
-            <li>
-              <span>Excellent Service</span>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Repudiandae, temporibus. Autem sequi inventore quisquam porro
-                possimus iusto illum, fugit officiis maiores minima veritatis
-                tempore, natus enim minus, sunt recusandae deserunt.
-              </p>
-            </li>
-          </ul>
-        </div>
+
+    <!--BUSINESS INFOMATION Section Begin-->
+    <section id="business_infomation">
+      <div class="business_info--container">
+        <h5 class="business_info--subtitle">Why Choose Us</h5>
+        <h2 class="business_info--heading">
+          Our Expertise Making Your House Shine
+        </h2>
+        <p class="business_info--para">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          iusto harum id illo facere? Distinctio officia corporis temporibus.
+          Corrupti ullam eius dignissimos vitae praesentium. Praesentium sed
+          earum suscipit perferendis ipsum!
+        </p>
+        <button type="button" class="business_info--btn">
+          <a href="#header-container">CONTACT US</a>
+        </button>
+      </div>
+      <div class="business_quality--container">
+        <ul class="business_quality--list">
+          <li class="business_quality--item">
+            <ion-icon name="person" class="business_quality--icon"></ion-icon>
+            <span class="business_quality--title">Expert Employee</span>
+            <p class="business_quality--para">
+              We're very proud to say that our staff and technicians are
+              associated with us for a long time. All our cleaners are
+              experienced and fully trained in cleaning, health, safety,
+              securty, etc.
+            </p>
+          </li>
+          <li class="business_quality--item">
+            <ion-icon
+              name="pricetags"
+              class="business_quality--icon"
+            ></ion-icon>
+            <span class="business_quality--title">Comfortable Price</span>
+            <p class="business_quality--para">
+              Price is what you pay. Value is what you get. We believe that
+              value is what you're looking for.
+            </p>
+          </li>
+          <li class="business_quality--item">
+            <ion-icon
+              name="thumbs-up"
+              class="business_quality--icon"
+            ></ion-icon>
+            <span class="business_quality--title">Excellent Service</span>
+            <p class="business_quality--para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repudiandae, temporibus. Autem sequi inventore quisquam porro
+              possimus iusto illum, fugit officiis maiores minima veritatis
+              tempore, natus enim minus, sunt recusandae deserunt.
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <section>
-      <h3>Quality Cleaning | Affordable Rates</h3>
-      <span>Fast And Reliable Services</span>
-      <ul>
-        <li>
-          <span>20+ Years Experience Staff</span>
+    <section id="offer-infomation">
+      <h3 class="offer-infomation--title">
+        Quality Cleaning | Affordable Rates
+      </h3>
+      <h5 class="offer-infomation--subtitle">Fast And Reliable Services</h5>
+      <ul class="offer-infomation--list">
+        <li class="offer-infomation--item">
+          <img src="src/img/maid.png" class="offer-infomation--icon" />
+          <span class="offer-infomation--span">20+ Years Experience Staff</span>
         </li>
-        <li>
-          <span>Always Turn Up On Time</span>
+        <li class="offer-infomation--item">
+          <img src="src/img/calendar.png" class="offer-infomation--icon" />
+          <span class="offer-infomation--span">Always Turn Up On Time</span>
         </li>
-        <li>
-          <span>We Remove most Stains</span>
+        <li class="offer-infomation--item">
+          <img src="src/img/vacuum.png" class="offer-infomation--icon" />
+          <span class="offer-infomation--span">We Remove most Stains</span>
         </li>
-        <li>
-          <span>100% Satisfaction Guarantee</span>
+        <li class="offer-infomation--item">
+          <img src="src/img/shield.png" class="offer-infomation--icon" />
+          <span class="offer-infomation--span"
+            >100% Satisfaction Guarantee</span
+          >
         </li>
       </ul>
     </section>
+
     <footer>
-      <ul>
-        <li>
-          <span>About Us</span>
+      <ul class="footer-list">
+        <li class="footer--about-us">
+          <span class="footer--heading">About Us</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
             impedit recusandae asperiores non molestiae esse id eius assumenda
             maxime iure omnis incidunt perspiciatis doloremque ipsa libero nulla
             sit voluptatum tenetur!
           </p>
-          <span>Emergency: <strong>123456789</strong></span>
+          <span class="footer--contact-number">+123456789</span>
           <a>Our Privacy Policy</a>
         </li>
-        <li>
-          <span>Contact Info</span>
+        <li class="footer--contact">
+          <span class="footer--heading">Contact Info</span>
           <ul>
-            <li>12345566789</li>
-            <li>info@gmail.com</li>
-            <li>cleanningmaidandmop.com</li>
+            <li>+12345566789</li>
+            <li>info.cleanstationservices@gmail.com</li>
+            <li>cleanstationservices.com</li>
           </ul>
         </li>
       </ul>
+      <div class="marketing">
+        <p>
+          Make by Minh Duc from
+          <a href="https://minhduc.website/freelancer" target="_blank"
+            >minhduc.website</a
+          >
+        </p>
+      </div>
     </footer>
 
     <!-- JAVA SCRIPT LINK -->

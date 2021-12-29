@@ -9,6 +9,7 @@
   --RB: "Roboto", sans-serif;
   --dark-blue: rgb(0, 13, 71);
   --dark-light-blue: rgb(0, 0, 138);
+  --text-green: rgb(0, 109, 0);
 }
 
 * {
@@ -302,7 +303,7 @@ body {
 }
 .about-us--h5 {
   font-size: 18px;
-  color: rgb(0, 109, 0);
+  color: var(--text-green);
 }
 .about-us--title {
   color: var(--dark-light-blue);
@@ -310,7 +311,7 @@ body {
   padding: 20px 0 10px 0;
 }
 .about-us--subtitle {
-  color: rgb(0, 109, 0);
+  color: var(--text-green);
   margin: 15px 0 35px 0;
 }
 .about-us--container p {
@@ -360,3 +361,225 @@ body {
   opacity: 0.2;
 }
 /* ABOUT US SECTION END */
+
+/* SERVICES SECTION START */
+#services {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1200px;
+  border-radius: 5px;
+  background-color: rgb(239, 247, 250);
+  font-family: var(--RB);
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+}
+.services-heading {
+  width: 700px;
+  padding: 60px 0 0 0;
+  font-size: 45px;
+  text-align: center;
+  color: var(--dark-light-blue);
+}
+.services-span {
+  color: var(--text-green);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0 30px 0;
+}
+.services-para {
+  color: grey;
+  text-align: center;
+  width: 700px;
+  font-size: 18px;
+  padding-bottom: 60px;
+}
+/* SERVICES SECTION END */
+
+/* BUSINESS INFOMATION BEGIN */
+#business_infomation {
+  width: 1000px;
+  padding: 60px 30px 30px 30px;
+  border: 2px dashed rgba(0, 0, 0, 0.2);
+  margin: 60px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+.business_info--container {
+  font-family: var(--RB);
+}
+.business_info--subtitle {
+  color: var(--text-green);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+.business_info--heading {
+  font-size: 55px;
+  color: var(--dark-light-blue);
+  margin-bottom: 40px;
+}
+.business_info--para {
+  color: grey;
+  font-size: 18px;
+  width: 360px;
+  margin-bottom: 30px;
+}
+.business_info--btn {
+  width: 150px;
+  height: 50px;
+  font-family: var(--BN);
+  font-size: 24px;
+  letter-spacing: 2px;
+  background-color: #ffca03;
+  color: var(--dark-blue);
+  position: relative;
+  left: 5%;
+  cursor: pointer;
+}
+.business_info--btn a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+.business_quality--container {
+  width: 700px;
+  border-left: 5px solid black;
+  padding-left: 30px;
+}
+.business_quality--list {
+  list-style: none;
+}
+.business_quality--item {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--RB);
+}
+.business_quality--icon {
+  color: var(--text-green);
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.business_quality--title {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--dark-light-blue);
+  margin-bottom: 10px;
+}
+.business_quality--para {
+  color: grey;
+  padding-bottom: 20px;
+}
+/* BUSINESS INFOMATION END */
+
+/* OFFER INFOMATION BEGIN */
+#offer-infomation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  width: 900px;
+  margin: 0 auto;
+  font-family: var(--RB);
+  justify-content: center;
+  align-items: center;
+}
+.offer-infomation--title {
+  font-family: var(--BN);
+  color: var(--dark-light-blue);
+  font-size: 30px;
+  text-align: center;
+}
+.offer-infomation--subtitle {
+  text-align: center;
+  font-size: 22px;
+  color: var(--text-green);
+  font-family: var(--poppins);
+  margin: 10px 0 30px 0;
+}
+.offer-infomation--list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.offer-infomation--item {
+  display: flex;
+  flex-direction: column;
+}
+.offer-infomation--icon {
+  width: 72px;
+  display: block;
+  margin: 20px auto;
+}
+.offer-infomation--span {
+  font-size: 18px;
+  color: var(--dark-light-blue);
+  font-weight: bold;
+  width: 260px;
+  padding: 0 10px 0 10px;
+}
+/* OFFER INFOMATION END */
+
+/* FOOTER BEGIN */
+footer {
+  margin-top: 100px;
+  color: black;
+  background-color: #eff2f7;
+  font-family: var(--poppins);
+  width: 100%;
+  height: 330px;
+  -webkit-box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+}
+.footer-list {
+  padding-top: 30px;
+  display: flex;
+  margin: 0 auto;
+  width: 1500px;
+  list-style: none;
+  justify-content: space-around;
+}
+.footer--about-us {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer--heading {
+  font-size: 26px;
+  font-weight: bold;
+}
+.footer--contact-number {
+  font-size: 18px;
+  color: var(--text-green);
+  font-weight: bold;
+}
+.footer--about-us p {
+  font-size: 14px;
+}
+.footer--contact ul {
+  list-style: none;
+}
+.footer--contact ul li {
+  padding: 10px 0;
+}
+.marketing {
+  background: black;
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+.marketing p {
+  position: relative;
+  top: 15%;
+}
+.marketing p a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* OFFER INFOMATION END */
