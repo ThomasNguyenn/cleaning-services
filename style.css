@@ -162,7 +162,7 @@ body {
 .form-contact {
   position: relative;
   display: flex;
-  row-gap: 20px;
+  row-gap: 25px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -561,6 +561,7 @@ footer {
 }
 .footer--about-us p {
   font-size: 14px;
+  width: 400px;
 }
 .footer--contact {
   position: relative;
