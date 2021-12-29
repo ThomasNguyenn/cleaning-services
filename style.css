@@ -283,6 +283,7 @@ body {
   border: 2px dashed grey;
   width: 1080px;
   border-radius: 5px;
+  height: 760px;
   padding: 50px;
   display: flex;
   flex-direction: row;
@@ -293,6 +294,8 @@ body {
   column-gap: 80px;
 }
 .about-us--container {
+  position: absolute;
+  right: -3%;
   width: 600px;
   height: auto;
 }
@@ -336,7 +339,7 @@ body {
 }
 .mop {
   position: absolute;
-  left: -20%;
+  left: -16%;
   top: 30%;
   display: block;
   width: 150px;
@@ -354,7 +357,7 @@ body {
 }
 .cleaning {
   position: absolute;
-  right: -18%;
+  right: -12%;
   display: block;
   width: 100px;
   transform: rotate(25deg);
@@ -518,7 +521,7 @@ body {
   color: var(--dark-light-blue);
   font-weight: bold;
   width: 260px;
-  padding: 0 10px 0 10px;
+  text-align: center;
 }
 /* OFFER INFOMATION END */
 
@@ -528,8 +531,8 @@ footer {
   color: black;
   background-color: #eff2f7;
   font-family: var(--poppins);
-  width: 100%;
-  height: 330px;
+  width: 100vw;
+  height: auto;
   -webkit-box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
 }
@@ -558,6 +561,10 @@ footer {
 }
 .footer--about-us p {
   font-size: 14px;
+}
+.footer--contact {
+  position: relative;
+  right: 5%;
 }
 .footer--contact ul {
   list-style: none;
