@@ -1127,3 +1127,12 @@
     padding: 10px 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .about-us--container {
+    left: -44%;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+}
