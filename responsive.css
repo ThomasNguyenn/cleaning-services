@@ -879,7 +879,7 @@
     display: none;
   }
   .about-us--container {
-    left: -30px;
+    left: -22%;
     position: relative;
     width: 100%;
     height: auto;
@@ -1118,7 +1118,6 @@
     position: relative;
     border-top: 2px solid black;
     right: 0;
-    width: 90%;
     padding-top: 10px;
   }
   .footer--contact ul {
