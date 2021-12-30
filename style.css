@@ -421,6 +421,7 @@ body {
   column-gap: 40px;
 }
 .business_info--container {
+  position: relative;
   font-family: var(--RB);
 }
 .business_info--subtitle {
