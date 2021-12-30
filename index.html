@@ -11,8 +11,9 @@
       href="./src/img/favicon.ico"
     />
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="responsive.css" type="text/css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="body">
     <!-- Header Title and Contact Form Begin-->
     <section id="header-container">
       <!-- Contact Information Detail Begin-->
@@ -22,7 +23,7 @@
             <span>24/7 Emergency Response</span>
             <span>Free: +123456789</span>
           </li>
-          <li>
+          <li class="open-time">
             <span>Opening Hour: 7AM - 9PM</span>
             <button class="quote-btn">Get A Quote</button>
           </li>
@@ -35,108 +36,117 @@
         <div class="img-container">
           <img src="./src/img/logo.jpg" alt="Logo" class="logo" />
         </div>
-        <ul class="nav-list">
+        <ul class="nav-list hidden" id="nav">
           <li class="nav-item"><a href="index.html">Home</a></li>
           <li class="nav-item"><a href="#about-us">About Us</a></li>
           <li class="nav-item"><a href="#business_infomation">Services</a></li>
           <li class="nav-item"><a href="#header-container">Contact Us</a></li>
         </ul>
+          <ion-icon name="grid-outline" class="nav-btn-phone" id="nav-btn-phone"></ion-icon>
       </div>
       <!-- Header Section with logo and navigation End-->
 
       <!-- Header Title and Contact Form Begin-->
-      <div class="header-tile-contact--container">
-        <div class="header-intro">
-          <h1 class="header-intro--title">
-            Best Cleaning Service Make You Satisfy
-          </h1>
-          <p class="header-intro--p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            perspiciatis explicabo nisi illum adipisci provident, ea veritatis,
-            non quae sapiente quos. Expedita illum, sequi nemo quasi beatae
-            consequatur iusto consequuntur.
-          </p>
-        </div>
-        <div class="header--contact-form--container">
-          <h3 class="contact-form--title">Contact Us</h3>
-          <form submit="none" id="form-contact" class="form-contact">
-            <input type="text" placeholder="Your name*" required />
-            <input type="email" placeholder="Your Email*" required />
-            <input type="phone" placeholder="Phone Number*" required />
-            <textarea placeholder="Description*" required></textarea>
-            <button type="submit" class="submit-btn">Book A Call</button>
-          </form>
+        <div class="header-title-contact--container">
+          <div class="header-intro">
+            <h1 class="header-intro--title">
+              Best Cleaning Service Make You Satisfy
+            </h1>
+            <p class="header-intro--p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              perspiciatis explicabo nisi illum adipisci provident, ea veritatis,
+              non quae sapiente quos. Expedita illum, sequi nemo quasi beatae
+              consequatur iusto consequuntur.
+            </p>
+          </div>
+          <div class="header--contact-form--container">
+            <h3 class="contact-form--title">Contact Us</h3>
+            <form submit="none" id="form-contact" class="form-contact">
+              <input type="text" placeholder="Your name*" required />
+              <input type="email" placeholder="Your Email*" required />
+              <input type="phone" placeholder="Phone Number*" required />
+              <textarea placeholder="Description*" required></textarea>
+              <button type="submit" class="submit-btn">Book A Call</button>
+            </form>
+          </div>
+      </section>
+      <!-- Header Title and Contact Form End-->
+  
+      <!-- Why Choose Us Section Begin-->
+      <section id="why-choose-us">
+        <h3 class="choose-us--title">Why Choose Us?</h3>
+        <ul class="choose-us--list">
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Safety Germs</span>
+          </li>
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Amazing Result</span>
+          </li>
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Reliable</span>
+          </li>
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Experienced</span>
+          </li>
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Reasonable</span>
+          </li>
+          <li class="choose-us--item">
+            <ion-icon
+              name="checkmark-circle-outline"
+              class="check-icon"
+            ></ion-icon>
+            <span class="choose-us--item_info">Effective</span>
+          </li>
+        </ul>
+        <div class="choose-us-info--container">
+          <div class="choose-us--info--item">
+            <h3 class="choose-us--info--title">Who We Are</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
+              facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
+              minima explicabo neque aut amet, aspernatur, optio voluptas et?
+            </p>
+          </div>
+          <div class="choose-us--info--item">
+            <h3 class="choose-us--info--title">What We Do</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
+              facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
+              minima explicabo neque aut amet, aspernatur, optio voluptas et?
+            </p>
+          </div>
+          <div class="choose-us--info--item">
+            <h3 class="choose-us--info--title">Our Mission</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
+              facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
+              minima explicabo neque aut amet, aspernatur, optio voluptas et?
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Header Title and Contact Form End-->
-
-    <!-- Why Choose Us Section Begin-->
-    <section id="why-choose-us">
-      <h3 class="choose-us--title">Why Choose Us?</h3>
-      <ul class="choose-us--list">
-        <li class="choose-us--item">
-          <ion-icon
-            name="checkmark-circle-outline"
-            class="check-icon"
-          ></ion-icon>
-          <span class="choose-us--item_info">Safety Germs Free Cleaning</span>
-        </li>
-        <li class="choose-us--item">
-          <ion-icon
-            name="checkmark-circle-outline"
-            class="check-icon"
-          ></ion-icon>
-          <span class="choose-us--item_info">Amazing Result</span>
-        </li>
-        <li class="choose-us--item">
-          <ion-icon
-            name="checkmark-circle-outline"
-            class="check-icon"
-          ></ion-icon>
-          <span class="choose-us--item_info">Reliable</span>
-        </li>
-        <li class="choose-us--item">
-          <ion-icon
-            name="checkmark-circle-outline"
-            class="check-icon"
-          ></ion-icon>
-          <span class="choose-us--item_info">Experienced</span>
-        </li>
-        <li class="choose-us--item">
-          <ion-icon
-            name="checkmark-circle-outline"
-            class="check-icon"
-          ></ion-icon>
-          <span class="choose-us--item_info">Lorem ipsum</span>
-        </li>
-      </ul>
-      <div class="choose-us-info--container">
-        <div class="choose-us--info--item">
-          <h3 class="choose-us--info--title">Who We Are</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
-            facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
-            minima explicabo neque aut amet, aspernatur, optio voluptas et?
-          </p>
-        </div>
-        <div class="choose-us--info--item">
-          <h3 class="choose-us--info--title">What We Do</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
-            facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
-            minima explicabo neque aut amet, aspernatur, optio voluptas et?
-          </p>
-        </div>
-        <div class="choose-us--info--item">
-          <h3 class="choose-us--info--title">Our Mission</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a
-            facere nemo hic eaque ad modi aliquam voluptatum at in assumenda
-            minima explicabo neque aut amet, aspernatur, optio voluptas et?
-          </p>
-        </div>
-      </div>
+      
     </section>
     <!-- Why Choose Us Section Begin-->
 
@@ -201,8 +211,8 @@
 
     <!--BUSINESS INFOMATION Section Begin-->
     <section id="business_infomation">
+      <h5 class="business_info--subtitle">Why Choose Us</h5>
       <div class="business_info--container">
-        <h5 class="business_info--subtitle">Why Choose Us</h5>
         <h2 class="business_info--heading">
           Our Expertise Making Your House Shine
         </h2>
@@ -324,5 +334,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
