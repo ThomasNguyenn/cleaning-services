@@ -879,7 +879,7 @@
     display: none;
   }
   .about-us--container {
-    left: 0;
+    left: 5%;
     position: absolute;
     width: 100%;
     height: auto;
